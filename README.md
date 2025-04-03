@@ -29,8 +29,13 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 - **Header**: Componente de cabeçalho que exibe o título da aplicação e um botão de login.
 
+- **Hero Section**: Seção principal que apresenta o meme do dia.
+
+
+
 ## Decisões de design tomadas
 
 ## Desafios enfrentados e soluções aplicadas
 
-- Desafio: A footer estava quebrada
+- Desafio: A footer não estava no layout correto.
+  - Solução: 
