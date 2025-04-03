@@ -27,8 +27,10 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 ## Descrição dos componentes criados
 
+- **Header**: Componente de cabeçalho que exibe o título da aplicação e um botão de login.
 
 ## Decisões de design tomadas
 
-
 ## Desafios enfrentados e soluções aplicadas
+
+- Desafio: A footer estava quebrada
