@@ -2,6 +2,7 @@ import styles from "./memes.module.css";
 import Header from "../components/header";
 import HeroSection from "../components/heroSection";
 import InteractionBar from "../components/interactionBar";
+import CategoriesSection from "../components/categoriesSection";
 
 export default function Home() {
   // Array de dados dos memes para serem passados como props
@@ -163,20 +164,7 @@ export default function Home() {
           <HeroSection />
 
           {/* COMPONENTE: CategoriesSection */}
-          <section className={styles.categoriesSection}>
-            <h2 className={styles.sectionTitle}>Explore por Categorias</h2>
-            <div className={styles.categoriesGrid}>
-              {categories.map((category) => (
-                <div key={category.id} className={styles.categoryCard}>
-                  <span className={styles.categoryIcon}>{category.icon}</span>
-                  <h3 className={styles.categoryName}>{category.name}</h3>
-                  <span className={styles.categoryCount}>
-                    {category.count} memes
-                  </span>
-                </div>
-              ))}
-            </div>
-          </section>
+         <CategoriesSection categories={categories}/>
           {/* FIM COMPONENTE: CategoriesSection */}
 
           {/* COMPONENTE: Feed */}

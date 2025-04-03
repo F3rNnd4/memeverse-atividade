@@ -31,9 +31,9 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 - **Hero Section**: Seção principal que apresenta o meme do dia.
 
-- **Meme Card**: Componente reutilizável que exibe um meme com título, imagem e descrição.
-
 - **Interaction Bar**: Componente que contém botões para curtir, comentar, compartilhar e salvar o meme.
+
+- **Categories**: Componente que exibe as categorias de memes disponíveis na plataforma.
 
 ## Decisões de design tomadas
 
