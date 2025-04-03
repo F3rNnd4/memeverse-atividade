@@ -31,7 +31,9 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 - **Hero Section**: Seção principal que apresenta o meme do dia.
 
+- **Meme Card**: Componente reutilizável que exibe um meme com título, imagem e descrição.
 
+- **Interaction Bar**: Componente que contém botões para curtir, comentar, compartilhar e salvar o meme.
 
 ## Decisões de design tomadas
 
@@ -39,3 +41,6 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 - Desafio: A footer não estava no layout correto.
   - Solução: 
+
+- Desafio: Realização da componentização e props de meme card e interaction bar.
+    - Solução: Com a ajuda de uma extensão do VsCode, a solução foi criar um componente de meme card e interaction bar, utilizando props para passar as informações necessárias.
