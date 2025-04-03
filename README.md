@@ -21,7 +21,7 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
     - Turbopack for `next dev` - Yes
     - import alias - No
 3. Acessar o diretório do projeto com `cd nome-do-projeto`;
-4. Mudar o nome dos arquivos layout.js e page.js para layout.jsx e page.jsx, respectivamente;
+4. Mudar o nome dos arquivos `layout.js e page.js` para `layout.jsx e page.jsx`;
 5. Executar o comando `npm run dev` para iniciar o servidor de desenvolvimento;
 6. Acessar o projeto no navegador em `http://localhost:3000`;
 
