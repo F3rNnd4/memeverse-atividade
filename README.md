@@ -35,12 +35,14 @@ Você foi contratado para trabalhar como desenvolvedor frontend no "MemeVerse", 
 
 - **Categories**: Componente que exibe as categorias de memes disponíveis na plataforma.
 
+-**Footer**: Componente de rodapé que contém informações sobre a plataforma e links úteis.
+
 ## Decisões de design tomadas
 
 ## Desafios enfrentados e soluções aplicadas
 
 - Desafio: A footer não estava no layout correto.
-  - Solução: 
+  - Solução: Apagar a pasts do footer e criar de novo um componente de footer.
 
 - Desafio: Realização da componentização e props de meme card e interaction bar.
     - Solução: Com a ajuda de uma extensão do VsCode, a solução foi criar um componente de meme card e interaction bar, utilizando props para passar as informações necessárias.
